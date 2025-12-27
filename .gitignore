@@ -1,0 +1,29 @@
+# General system files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+# Rust build artifacts
+/target/
+**/target/
+/debug/
+**/debug/
+/release/
+**/release/
+
+# Backup files
+**/*.rs.bk
+
+# Binaries and object files
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+*.o
+*.obj
+*.rlib
+*.a
