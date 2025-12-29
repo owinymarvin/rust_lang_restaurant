@@ -1,1 +1,8 @@
+// commands to test our cargo lib, since we cant build an executable file 
+
 cargo new restaurant --lib // create a new cargo library crate
+cargo check 
+cargo test
+cargo test --no-run
+cargo fmt src/lib.rs 
+cargo clippy //runs advanced lints for bugs, performance and style 
